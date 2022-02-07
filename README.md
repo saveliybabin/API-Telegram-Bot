@@ -3,8 +3,9 @@
 ## Оглавление
 
 0. [Вводное описание](#Вводное-описание)
-1. [API](#API)
-2. [Интерфейс бота](#Интерфейс-бота)
+1. [Запуск](#Запуск)
+2. [API](#API)
+3. [Интерфейс бота](#Интерфейс-бота)
     1. [Начало работы](#Начало-работы)
     2. [Помощь](#Помощь)
     3. [Обучение](#Обучение)
@@ -13,11 +14,17 @@
     6. [Просмотр результатов](#Просмотр-результатов)
     7. [Удаление модели](#Удаление-модели)
     8. [Дополнительная информация](#Дополнительная-информация)
-3. [Контакты](#Контакты)
+4. [Контакты](#Контакты)
+
     
 ## Вводное описание
 
 В данном репозитории представлена работа телеграм-ботом [@make_ml_great_again_bot](https://t.me/make_ml_great_again_bot). Бот работаем с дефолтным датасетом sklearn iris [ссылка на документацию](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html). Для предсказания новых значений Бот предлагает на выбор две модели [LogReg](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html?highlight=logistic#sklearn.linear_model.LogisticRegression) и [Decision Tree](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html?highlight=decision%20tree#sklearn.tree.DecisionTreeClassifier) с возможностью выбирать гиперпараметры из ограниченного списка. В репозитории хранятся файлы, обеспечивающие работу бота; запуск API, помощью которого бот забирает, обновляет, удаляет данные; файл для логгирования действий и файл к даными подключения.
+
+
+## Запуск
+
+Для начала работы API необходимо запустить 'cli.py', затем для работы бота 'bot.py'
 
 
 ## API
